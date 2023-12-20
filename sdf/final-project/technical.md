@@ -10,7 +10,7 @@ Project Name:
 
 Reviewer Name:
 
-### Documentation
+## Documentation
 [ ] Is the README up to date and clear?
 
 [ ] Does the README.md give users a detailed description of the project?
@@ -21,17 +21,11 @@ Reviewer Name:
 
 [ ] May include screenshots or diagrams if applicable
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
-### Version Control
+## Version Control
 [ ] Is the project using version control?
 
 [ ] Repository in GitHub (with name of your project)
@@ -42,17 +36,11 @@ Reviewer Name:
 
 [ ] Bonus for issue tracking connected to pull requests
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
-### Code Hygiene
+## Code Hygiene
 [ ] Is the code clean, readable, and maintainable?
 
 [ ] Is there a significant amount of commented out code?
@@ -69,17 +57,11 @@ Reviewer Name:
 
 [ ] Could another developer easily/quickly ramp into this project? (eg has a sample_data rake task, follows standard CRUD pattern, etc.)
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
-### Frontend
+## Frontend
 [ ] Is the frontend effective and accessible?
 
 [ ] Uses semantic HTML (HTML elements clearly describe their meaning in a human- and machine-readable way)
@@ -92,17 +74,11 @@ Reviewer Name:
 
 [ ] Bonus for accessibility (alt tags on images, aria tags, etc.)
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
-### Backend
+## Backend
 [ ] Is the backend functional, readable, secure and efficient?
 
 [ ] Runs without major errors.
@@ -117,27 +93,16 @@ Reviewer Name:
 
 [ ] Bonus for using concerns, service objects, or jobs
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
-### Deployment
-- Your app should be successfully deployed
-- Bonus for using a custom domain name
+## Deployment
+[ ] Your app should be successfully deployed
 
-### Score:
+[ ] Bonus for using a custom domain name
 
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 

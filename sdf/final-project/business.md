@@ -23,13 +23,7 @@ Should have a functional specification document with:
 
 [ ] Does the app satisfy the functional requirements?
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
@@ -42,13 +36,7 @@ Should have a functional specification document with:
 
 [ ] Should have a professional/appealing look and feel
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 

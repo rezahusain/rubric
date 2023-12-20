@@ -21,13 +21,7 @@ Reviewer Name:
 
 [ ] Is this a compelling/exciting solution?
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
@@ -42,13 +36,7 @@ Reviewer Name:
 
 [ ] Bullet points should be concise
 
-### Score: 
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
@@ -61,13 +49,7 @@ Reviewer Name:
 
 [ ] Speaking should be clear and have proper pacing
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
@@ -78,13 +60,7 @@ Reviewer Name:
 
 [ ] Should jump straight into the unique parts of the app (ie don't bother including sign-up/sign-in steps)
 
-### Score:
-
-[ ] No (0 pts)
-
-[ ] Needs improvement (1-4 pts)
-
-[ ] Yes (5 pts)
+### Score (/5):
 
 ### Notes:
 
