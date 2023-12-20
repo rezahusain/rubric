@@ -1,4 +1,4 @@
-# Final Project Rubric
+# SDF Final Project Rubric
 
 This is intended to be filled out by staff members of DPI Tech Apprenticeship program. If you do not feel qualified to score a section, feel free to leave it blank.
 
