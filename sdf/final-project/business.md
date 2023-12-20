@@ -10,9 +10,7 @@ Project Name:
 Reviewer Name:
 
 ## Requirements
-[ ] Does the app satisfy the functional requirements?
-
-[ ] Should have a functional specification document with:
+Should have a functional specification document with:
 
     [ ] a description of the problem
 
@@ -22,7 +20,7 @@ Reviewer Name:
 
     [ ] user interface / flow sketches
 
-[ ] Does the app satisfy these requirements?
+[ ] Does the app satisfy the functional requirements?
 
 ### Score:
 
@@ -39,7 +37,7 @@ Reviewer Name:
 
 [ ] Should have a call to action (sign up, get started, etc.)
 
-[ ] May have a video or how it works section.
+[ ] Has a video and/or how it works section.
 
 [ ] Should have a professional/appealing look and feel
 

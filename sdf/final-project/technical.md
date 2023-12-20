@@ -15,9 +15,9 @@ Reviewer Name:
 
 [ ] Does the README.md give users a detailed description of the project?
 
-[ ] May include title, description, install steps, contribution guidelines and anything else that might be helpful.
+[ ] Includes title, description, install steps, contribution guidelines and anything else that might be helpful.
 
-[ ] Should be formatted using Markdown
+[ ] Formatted using Markdown
 
 [ ] May include screenshots or diagrams if applicable
 
@@ -33,9 +33,13 @@ Reviewer Name:
 
 ### Version Control
 [ ] Is the project using version control?
+
 [ ] Repository in GitHub (with name of your project)
+
 [ ] Using git-flow (branching and pull requests)
+
 [ ] Should have regular commits with clear, descriptive messages
+
 [ ] Bonus for issue tracking connected to pull requests
 
 ### Score:
@@ -84,9 +88,9 @@ Reviewer Name:
 
 [ ] Uses partial templates when appropriate (eg navbar, forms, cards, lists, etc.)
 
-[ ] Mobile responsive (unless)
+[ ] Mobile responsive (unless not intended to be used on mobile)
 
-[ ] Bonus of accessibility (alt tags on images, aria tags, etc.)
+[ ] Bonus for accessibility (alt tags on images, aria tags, etc.)
 
 ### Score:
 
@@ -124,7 +128,7 @@ Reviewer Name:
 ### Notes:
 
 ### Deployment
-- Your app should be successfully deployed to a cloud hosting site such as Fly.io or Render.com
+- Your app should be successfully deployed
 - Bonus for using a custom domain name
 
 ### Score:
