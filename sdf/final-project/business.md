@@ -14,13 +14,13 @@ Reviewer Name:
 
 [ ] Should have a functional specification document with:
 
-[ ] a description of the problem
+    [ ] a description of the problem
 
-[ ] proposed solution
+    [ ] proposed solution
 
-[ ] user stories
+    [ ] user stories
 
-[ ] possibly some sketches
+    [ ] user interface / flow sketches
 
 [ ] Does the app satisfy these requirements?
 
