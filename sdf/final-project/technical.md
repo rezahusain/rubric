@@ -40,6 +40,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Is the logic easy to follow?
 - [ ] Consistent indentation? (especially in view templates)
 - [ ] Is the code DRY? (don't repeat yourself)
+- [ ] Is there a significant amount of inline styling?
+
+<!-- TODO move this somewhere else? eg backend? -->
 - [ ] Could another developer easily/quickly ramp into this project? (eg has a sample_data rake task, follows standard CRUD pattern, etc.)
 
 ### Score (/5):
@@ -52,11 +55,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Uses semantic HTML (HTML elements clearly describe their meaning in a human- and machine-readable way)
 - [ ] Uses CSS and/or a library (eg Bootstrap)
 - [ ] Uses partial templates when appropriate (eg navbar, forms, cards, lists, etc.)
+- [ ] Uses JavaScript: AJAX, JQuery, etc.
+- [ ] Users helpers such as `link_to`, `button_to`, `form_with`, etc.
 
 ### Bonus
 - [ ] Works great on all different devices  (mobile responsive)
-- [ ] accessibility (alt tags on images, aria tags, etc.)
-
+- [ ] Accessibility (alt tags on images, aria tags, etc.)
 <!-- TODO: more of the enrichment stuff -->
 
 ### Score (/5):
@@ -70,13 +74,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Is the backend functional, readable, secure and efficient?
 - [ ] Is the data model clear and efficient?
 - [ ] Securely stores API keys (env, rails credentials)
-- [ ] Usage of helpers such as `link_to`, `button_to`, `form_with`, `resources`, `params` etc.
+- [ ] Uses helpers such as  `resources`, `params`, `has_many` etc.
 - [ ] Defines authorization policy using Pundit (or similar).
-<!-- sample data task -->
+<!-- TODO; sample data rake task -->
 
 ### Bonus
 - [ ] Using concerns, service objects, or background jobs (when appropriate)
-<!-- TODO: maybe have 'welcome mailer' (should this be in business?) -->
+<!-- TODO: devise mailers, maybe have 'welcome mailer' (should this be in business?) -->
 - [ ] Mailer
 
 <!-- TODO: more of the enrichment stuff -->
