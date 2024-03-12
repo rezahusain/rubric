@@ -46,6 +46,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
+<!-- TODO: make more objective -->
 ## Frontend
 - [ ] Is the frontend effective and accessible?
 - [ ] Uses semantic HTML (HTML elements clearly describe their meaning in a human- and machine-readable way)
@@ -56,22 +57,29 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Works great on all different devices  (mobile responsive)
 - [ ] accessibility (alt tags on images, aria tags, etc.)
 
+<!-- TODO: more of the enrichment stuff -->
+
 ### Score (/5):
 
 ### Notes:
 
 ## Backend
 <!-- TODO: add follows standard CRUD pattern -->
+
+<!-- TODO: too subjective -->
 - [ ] Is the backend functional, readable, secure and efficient?
-<!-- TODO: move somewhere else? -->
-<!-- - [ ] Runs without major errors. -->
 - [ ] Is the data model clear and efficient?
 - [ ] Securely stores API keys (env, rails credentials)
 - [ ] Usage of helpers such as `link_to`, `button_to`, `form_with`, `resources`, `params` etc.
 - [ ] Defines authorization policy using Pundit (or similar).
+<!-- sample data task -->
 
 ### Bonus
-- [ ] Using concerns, service objects, or background jobs
+- [ ] Using concerns, service objects, or background jobs (when appropriate)
+<!-- TODO: maybe have 'welcome mailer' (should this be in business?) -->
+- [ ] Mailer
+
+<!-- TODO: more of the enrichment stuff -->
 
 ### Score (/5):
 

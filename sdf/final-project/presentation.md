@@ -6,24 +6,26 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Project Name:
 - Reviewer Name:
 
+<!-- Maybe change this to "story"? -->
 <!-- TODO: is there clear business value? Is it clear how this solution is preparing you for on the job?  (eg ties to a category @ rfp.dpi.dev) -->
-
-## Usefulness
+## Business Value
 - [ ] Who is this for? Is the target user clearly identified somewhere in the presentation?
 - [ ] Is there evidence of market research or validation of the problem being solved? (eg talking to potential users)
 - [ ] Is this a compelling/exciting solution? Could you imagine someone using this?
+<!-- TODO: 2 more -->
 
-### Score (/3):
+### Score (/5):
 
 ### Notes:
 
 ## Slides
-- [ ] Is the deck clear and easily understood?
-- [ ] Is the deck easily understood by the general public?
-- [ ] Is the text minimal?
-- [ ] Are the bullet points concise?
+- [ ] Is the deck clear and easily understood by the general public?
+- [ ] Is the text minimal/concise?
+- [ ] Is the font size large enough?
+- [ ] Is there a demo video / screencast / gif in the presentation?
+- [ ] Does the demo video / screencast / gif jump straight into the unique parts of the app? (eg doesn't include basic sign-up/sign-in steps)
 
-### Score (/4):
+### Score (/5):
 
 ### Notes:
 
@@ -32,28 +34,16 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Is the narration concise and consistent with the slides?
 - [ ] Does the speaker adhere to the time limit?
 - [ ] Is the speaking clear with proper pacing?
+<!-- TODO: 1 more? -->
 
-### Score (/4):
-
-### Notes:
-
-## Demo Video / Screencast (in the presentation)
-Does the demo video in the presentation
-- [ ] Is there a demo video / screencast in the presentation?
-- [ ] Does the video go over the key features?
-- [ ] Does the video clearly explain how to use the app?
-- [ ] Does the video jump straight into the unique parts of the app? (eg doesn't include basic sign-up/sign-in steps)
-
-### Score (/3):
+### Score (/5):
 
 ### Notes:
 
-## Presentation Score (/20):
+## Presentation Score (/15):
 - Usefulness (/5):
 - Slides (/5):
 - Speaking (/5):
-- Demo Video (/3):
-- Bonus:
 ---
 - Total: 
 
