@@ -8,10 +8,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Documentation
 - [ ] Is the README up to date and clear?
-- [ ] Does the README.md give users a detailed description of the project?
-- [ ] Includes title, description, install steps, contribution guidelines and anything else that might be helpful.
-- [ ] Formatted using Markdown
-- [ ] May include screenshots or diagrams if applicable
+- [ ] Does the README give developers a detailed description of the project?
+- [ ] Does the README include installation steps, contribution guidelines, and other relevant technical information? (to help developers joining the team quickly familiarize themselves with the codebase)
+- [ ] Is the README formatted using Markdown?
+- [ ] Is the repository name relevant to the project?
+
+### Bonus
+- [ ] Does the README link to screenshots or diagrams? (eg erd)
 
 ### Score (/5):
 
@@ -19,10 +22,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Version Control
 - [ ] Is the project using version control? (Git)
-- [ ] Is the repository in GitHub? (with name of your project)
-- [ ] Is the project using git-flow, branching and pull requests? (at least some of the time)
+- [ ] Is the repository in GitHub? (or similar)
+- [ ] Is the project using git-flow, branching and pull requests? (at least once)
 - [ ] Does the project have regular commits with clear, descriptive messages?
-- [ ] Is the project using github issues connected to pull requests?
+- [ ] Is the project using github issues connected to pull requests? (at least once)
 
 ### Bonus
 - [ ] Has a github project kanban board
@@ -31,36 +34,42 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-<!-- TODO: change to only 5 -->
 ## Code Hygiene
-- [ ] Is the code clean, readable, and maintainable?
-- [ ] Is there a significant amount of commented out code?
-- [ ] Are variables, classes, methods, etc. named appropriately? Descriptive?
-- [ ] Consistent casing? (especially variables)
-- [ ] Is the logic easy to follow?
-- [ ] Consistent indentation? (especially in view templates)
-- [ ] Is the code DRY? (don't repeat yourself)
-- [ ] Is there a significant amount of inline styling?
+- [ ] No significant commented out code
+- [ ] Are variables, classes, methods, etc. named appropriately?
+<!-- https://www.w3schools.com/js/js_conventions.asp -->
+<!-- https://github.com/airbnb/javascript -->
+<!-- https://ruby-style-guide.shopify.dev/ -->
+<!-- https://google.github.io/styleguide/htmlcssguide.html -->
+- [ ] Is the casing consistent and predictable? (snake_case for ruby, camelCase for javascript, kebab-case for css classes and consistent throughout)
+- [ ] Is the logic easy to follow? (short methods, standard patterns, no crazy indentation etc.)
+- [ ] No significant inline styles?
 
-<!-- TODO move this somewhere else? eg backend? -->
-- [ ] Could another developer easily/quickly ramp into this project? (eg has a sample_data rake task, follows standard CRUD pattern, etc.)
+<!-- Logic should be in the right place -->
+<!-- no script tags all over the place -->
+<!-- no crazy indentation -->
+<!-- runs without errors or weird console logs -->
+
+
+### Bonus
+<!-- TODO: think of some bonuses here -->
+
 
 ### Score (/5):
 
 ### Notes:
 
-<!-- TODO: make more objective -->
 ## Frontend
-- [ ] Is the frontend effective and accessible?
-- [ ] Uses semantic HTML (HTML elements clearly describe their meaning in a human- and machine-readable way)
-- [ ] Uses CSS and/or a library (eg Bootstrap)
-- [ ] Uses partial templates when appropriate (eg navbar, forms, cards, lists, etc.)
-- [ ] Uses JavaScript: AJAX, JQuery, etc.
-- [ ] Users helpers such as `link_to`, `button_to`, `form_with`, etc.
+- [ ] Does the frontend utilize semantic HTML? (HTML elements clearly describe their meaning in a human- and machine-readable way)
+- [ ] Does the frontend use CSS and/or a library like Bootstrap for styling?
+- [ ] Does the frontend use partial templates when appropriate? (eg flashes, breadcrumbs, navbar, forms, cards, lists, etc.)
+- [ ] Does the frontend utilize JavaScript to add client side interactive elements such that every click doesn’t require a full page reload? (eg AJAX, JQuery, etc.)
+- [ ] Does the frontend use helpers? (such as `link_to`, `button_to`, `form_with`, etc.)
 
 ### Bonus
-- [ ] Works great on all different devices  (mobile responsive)
-- [ ] Accessibility (alt tags on images, aria tags, etc.)
+- [ ] It looks and works great on all different devices (mobile responsive)
+- [ ] It supports screen readers and other accessibility features (alt tags on images, aria tags, etc.) [free tool](https://wave.webaim.org/)
+
 <!-- TODO: more of the enrichment stuff -->
 
 ### Score (/5):
@@ -68,15 +77,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Backend
-<!-- TODO: add follows standard CRUD pattern -->
-
-<!-- TODO: too subjective -->
-- [ ] Is the backend functional, readable, secure and efficient?
-- [ ] Is the data model clear and efficient?
-- [ ] Securely stores API keys (env, rails credentials)
-- [ ] Uses helpers such as  `resources`, `params`, `has_many` etc.
-- [ ] Defines authorization policy using Pundit (or similar).
-<!-- TODO; sample data rake task -->
+- [ ] Could another developer easily/quickly ramp into this project? (eg has a sample_data rake task, follows standard CRUD and MVC patterns, etc.)
+- [ ] Is the data model clear, efficient, and effective?
+- [ ] Are API keys stored securely? (.env, rails credentials, etc.)
+- [ ] Does the app make appropriate use helper methods?  (`resources`, `params`, `has_many` etc.)
+- [ ] Does the app define authorization policy using Pundit (or similar)?
 
 ### Bonus
 - [ ] Using concerns, service objects, or background jobs (when appropriate)
@@ -90,10 +95,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Deployment
-- [ ] Your app should be successfully deployed
+- [ ] Is the app successfully deployed
 
 ### Bonus
-- [ ] custom domain name - 1pt
+- [ ] Is there a custom domain name?
 
 ### Score (/5):
 

@@ -6,13 +6,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Project Name:
 - Reviewer Name:
 
-<!-- Maybe change this to "story"? -->
-<!-- TODO: is there clear business value? Is it clear how this solution is preparing you for on the job?  (eg ties to a category @ rfp.dpi.dev) -->
-## Business Value
+## Story
 - [ ] Who is this for? Is the target user clearly identified somewhere in the presentation?
 - [ ] Is there evidence of market research or validation of the problem being solved? (eg talking to potential users)
 - [ ] Is this a compelling/exciting solution? Could you imagine someone using this?
-<!-- TODO: 2 more -->
+- [ ] Is there clear business value? Is it clear how working on this project is preparing you for on the job? (eg ties to a category on https://rfp.dpi.dev)
+- [ ] Does the presentation follow a clear structure? (e.g. intro, problem statement, main features, future goals, closing, etc.)
 
 ### Score (/5):
 
