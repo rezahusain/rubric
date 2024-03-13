@@ -40,7 +40,7 @@ How well does the deployed app satisfy the functional requirements?
 
 ### Notes:
 
-## Business Score (/10):
+## Business Score (/15):
 - Functional Requirements Document (/5):
 - Satisfy Functional Requirements (/5):
 - Landing Page (/5):
