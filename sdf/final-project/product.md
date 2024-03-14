@@ -1,4 +1,4 @@
-# SDF Final Project Rubric - Business
+# SDF Final Project Rubric - Product
 This is intended to be filled out by staff members of DPI Tech Apprenticeship program.
 
 - Date/Time:
@@ -7,9 +7,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Reviewer Name:
 
 ## Functional Requirements Document
-Should have a functional specification document with:
-- [ ] description of the problem
-- [ ] proposed solution
+Should have a functional requirements document with:
+- [ ] a description of the problem
+- [ ] a proposed solution
 - [ ] user stories
 - [ ] domain model, associations
 - [ ] user interface, flow, sketches, pages
@@ -33,14 +33,14 @@ How well does the deployed app satisfy the functional requirements?
 - [ ] Does the landing page have a professional/appealing look and feel?
 - [ ] Does the landing page (without logging in) clearly articulate who the app is for and what problem it solves?
 - [ ] Does the landing page have a call to action? (sign up link, get started link, or immediate value proposition etc.)
-- [ ] Does the landing page have a video and/or how it works section?
-- [ ] Does the landing page video have audio narration explaining how the app works?
+- [ ] Does the landing page have a how to video and/or how it works section?
+- [ ] Does the landing page clearly articulate how the app works? (walkthough video, how it works section, testimonials, case studies etc.)
 
 ### Score (/5):
 
 ### Notes:
 
-## Business Score (/15):
+## Product Score (/15):
 - Functional Requirements Document (/5):
 - Satisfy Functional Requirements (/5):
 - Landing Page (/5):
