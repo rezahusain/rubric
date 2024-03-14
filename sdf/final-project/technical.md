@@ -66,6 +66,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Does the frontend utilize JavaScript to add client side interactive elements such that every click doesn’t require a full page reload? (eg AJAX, JQuery, etc.)
 - [ ] Does the frontend use helpers? (such as `link_to`, `button_to`, `form_with`, etc.)
 
+<!-- TODO max 5? -->
 ### Bonus
 - [ ] It looks and works great on all different devices (mobile responsive)
 - [ ] It supports screen readers and other accessibility features (alt tags on images, aria tags, etc.) [free tool](https://wave.webaim.org/)
@@ -88,6 +89,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Does the app make appropriate use of helper methods?  (`resources`, `params`, `has_many` etc.)
 - [ ] Does the app define authorization policy using Pundit (or similar)?
 
+<!-- TODO max 5? -->
 ### Bonus
 - [ ] Using a concern
 - [ ] service objects

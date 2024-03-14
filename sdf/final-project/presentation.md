@@ -40,6 +40,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
+<!-- TODO: bonus for overall? -->
 ## Presentation Score (/15):
 - Story (/5):
 - Slides (/5):
