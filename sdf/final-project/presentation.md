@@ -11,7 +11,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Is there evidence of market research or validation of the problem being solved? (talking to potential users, previous experiences, etc.)
 - [ ] Is this a compelling/exciting solution? Could you imagine someone using this?
 - [ ] Is there clear business value? Is it clear how working on this project is preparing you for on the job? (eg ties to a category on https://rfp.dpi.dev)
-- [ ] Does the presentation follow a clear structure? (e.g. intro, problem statement, solution, main features, future goals, closing, etc.)
+- [ ] Does the presentation follow a clear structure? (e.g. introduction, problem statement, solution, main features, future goals, closing, etc.)
 
 ### Score (/5):
 
@@ -41,7 +41,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Presentation Score (/15):
-- Usefulness (/5):
+- Story (/5):
 - Slides (/5):
 - Speaking (/5):
 ---
