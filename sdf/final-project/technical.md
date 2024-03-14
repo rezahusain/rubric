@@ -45,7 +45,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] Is the logic easy to follow? (short methods, standard patterns, no crazy indentation etc.)
 - [ ] No significant inline styles?
 
-<!-- Logic should be in the right place -->
+<!-- Logic should be in the right place (eg .where queries in model (not views)) -->
 <!-- no script tags all over the place -->
 <!-- no crazy indentation -->
 <!-- runs without errors or weird console logs -->
@@ -71,24 +71,40 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] It supports screen readers and other accessibility features (alt tags on images, aria tags, etc.) [free tool](https://wave.webaim.org/)
 
 <!-- TODO: more of the enrichment stuff -->
+<!-- breadcrumbs -->
+<!-- styled flashes or toasts -->
+<!-- pagination -->
+<!-- charts, graphs, or other data visualization -->
+<!-- meta tag image for links -->
 
 ### Score (/5):
 
 ### Notes:
 
 ## Backend
-- [ ] Could another developer easily/quickly ramp into this project? (eg has a sample_data rake task, follows standard CRUD and MVC patterns, etc.)
+- [ ] Could another developer easily/quickly ramp into this project? (eg has a sample_data rake task, follows standard CRUD and MVC patterns, migrations run without issue etc.)
 - [ ] Is the data model clear, efficient, and effective?
 - [ ] Are API keys stored securely? (.env, rails credentials, etc.)
-- [ ] Does the app make appropriate use helper methods?  (`resources`, `params`, `has_many` etc.)
+- [ ] Does the app make appropriate use of helper methods?  (`resources`, `params`, `has_many` etc.)
 - [ ] Does the app define authorization policy using Pundit (or similar)?
 
 ### Bonus
-- [ ] Using concerns, service objects, or background jobs (when appropriate)
-<!-- TODO: devise mailers, maybe have 'welcome mailer' (should this be in business?) -->
-- [ ] Mailer
-
+- [ ] Using a concern
+- [ ] service objects
+- [ ] background job
 <!-- TODO: more of the enrichment stuff -->
+<!-- TODO: devise mailers, maybe have 'welcome mailer' (should this be in business?) -->
+- [ ] Mailers working (devise and/or custom)
+<!-- cloud storage (eg image uploads) -->
+<!-- payments -->
+<!-- csv upload -->
+<!-- json api -->
+<!-- searching or filtering (ransack) -->
+<!-- map / geocoding -->
+<!-- hotwire / turbo / stimulus -->
+<!-- active record callback -->
+<!-- polymorphic association -->
+
 
 ### Score (/5):
 
