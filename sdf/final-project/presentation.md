@@ -7,6 +7,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Reviewer Name:
 
 ## Story
+<!-- TODO: add headers -->
 - [ ] Is the target user/problem clearly identified somewhere in the presentation?
 - [ ] Is there evidence of market research or validation of the problem being solved? (talking to potential users, previous experiences, etc.)
 - [ ] Is this a compelling/exciting solution? Could you imagine someone using this?
@@ -29,12 +30,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Speaking
-- [ ] Is the narration easily understood?
+- [ ] Is the narration easily understood? Is the speaking clear with proper pacing?
 - [ ] Is the narration concise and consistent with the slides?
 - [ ] Does the speaker adhere to the time limit? (3-5 minutes)
-- [ ] Is the speaking clear with proper pacing?
 <!-- TODO: 1 more? -->
 <!-- maybe on answering questions? -->
+<!-- explain complex ideas in simple terms? -->
+<!-- body language / own the room / eye contact -->
 
 ### Score (/5):
 

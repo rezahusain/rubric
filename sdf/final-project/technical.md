@@ -43,22 +43,16 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Consistent Indentation**: Is the code indentation consistent throughout the application?
 - [ ] **Clear Naming Conventions**: Are variables, methods, and classes named clearly and descriptively? Names should accurately reflect the purpose or functionality of the entity they represent.
 - [ ] **Casing Conventions**: Does the code follow language-specific casing conventions? (e.g., snake_case for Ruby variables and methods, CamelCase for classes).
-- [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity.
-- [ ] **Proper File and Directory Naming**: Are files and directories named consistently and organized logically according to their purpose within the application?
-
-### Bonus (max 2)
-- [ ] **Minimal Inline Comments**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible.
-- [ ] **DRY Principles**: Are there examples of adherence to the DRY (Don't Repeat Yourself) principle? Identify instances where code reuse through methods or partials is effectively implemented.
-- [ ] **Use of Whitespace for Readability**: Is whitespace used effectively to separate code blocks and improve readability?
-- [ ] **Linting**: Is there a linter setup? (rubocop for ruby, eslint for javascript)
+- [ ] **DRY Principles**: Are there examples of adherence to the DRY (Don't Repeat Yourself) principle? (eg queries are abstracted to model methods instead of view templates for reusability/readability)
+- [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. Unused code should be deleted (not commented out).
 
 ### Score (/5):
 
 ### Notes:
 
 ## Frontend
-- [ ] **Semantic HTML Usage**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly?
-- [ ] **Styling Consistency and Responsiveness**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling, ensuring a consistent and responsive design across various devices and screen sizes?
+- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly?
+- [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling?
 - [ ] **Template Usage for Reusability**: Are partial templates used to promote code reusability and maintainability for common UI components (e.g., navigation bars, forms, lists)?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery) utilized to enhance the UI with dynamic content and interactive elements, reducing unnecessary page reloads?
 - [ ] **Rails View Helpers**: Does the project leverage Rails view helpers (link_to, form_with, etc.) to streamline the generation of view code and enforce best practices in form and link creation?
@@ -66,7 +60,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Bonus (max 2)
 - [ ] **Responsive Design**: It looks and works great on all different devices (seamless user experience across desktop, tablet, and mobile)
 - [ ] **Accessibility Considerations**: Are accessibility features (such as alt tags for images, ARIA roles) implemented to support users with disabilities and to comply with web accessibility standards?
-- [ ] **Enhanced Navigation and Feedback**: Are breadcrumbs used to enhance site navigation? Are styled flashes or toasts implemented to provide clear, user-friendly feedback?
+- [ ] **Enhanced Navigation and Feedback**: Are breadcrumbs used to enhance site navigation? Are styled flashes or toasts implemented to provide clear, user-friendly feedback? (in a partial)
 
 
 ### Score (/5):
@@ -82,7 +76,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Bonus (max 2)
 - [ ] **Advanced Data Modeling**: Has the application utilized advanced ActiveRecord features, such as concerns, polymorphic associations, or service objects, to encapsulate business logic and streamline code?
-- [ ] **Background Processing**: Are background jobs (using Sidekiq, ActiveJob, etc.) implemented for time-consuming processes, improving app performance and user experience?
+- [ ] **Background Processing**: Are background jobs (eg ActiveJob) implemented for time-consuming processes, improving app performance and user experience?
 - [ ] **API Development**: Does the project provide a well-documented JSON API for integration with other services or frontend frameworks?
 - [ ] **Performance Optimization**: Is the Bullet gem (or similar) used in development to detect and reduce N+1 queries and other common performance bottlenecks?
 - [ ] **Feature Implementation**: Are additional features such as file upload (CSV uploads), Active Record callbacks for model lifecycle management, or custom rake tasks for database management included, demonstrating an advanced understanding of Rails capabilities?

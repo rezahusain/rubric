@@ -31,6 +31,7 @@ How well does the deployed app satisfy the functional requirements?
 
 ## Landing Page
 - [ ] Does the landing page have a professional/appealing look and feel?
+<!-- TODO: combine these 4 into 2 maybe? -->
 - [ ] Does the landing page (without logging in) clearly articulate who the app is for and what problem it solves?
 - [ ] Does the landing page have a call to action? (sign up link, get started link, or immediate value proposition etc.)
 - [ ] Does the landing page have a how to video and/or how it works section?
