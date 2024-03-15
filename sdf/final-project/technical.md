@@ -75,11 +75,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Authorization and Access Control**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control across the application?
 
 ### Bonus (max 2)
-- [ ] **Advanced Data Modeling**: Has the application utilized advanced ActiveRecord features, such as concerns, polymorphic associations, or service objects, to encapsulate business logic and streamline code?
+- [ ] **Advanced Data Modeling**: Has the application utilized advanced ActiveRecord features, such as concerns, Active Record callbacks for model lifecycle management, or polymorphic associations to encapsulate business logic?
+- [ ] **Business Logic**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Background Processing**: Are background jobs (eg ActiveJob) implemented for time-consuming processes, improving app performance and user experience?
 - [ ] **API Development**: Does the project provide a well-documented JSON API for integration with other services or frontend frameworks?
 - [ ] **Performance Optimization**: Is the Bullet gem (or similar) used in development to detect and reduce N+1 queries and other common performance bottlenecks?
-- [ ] **Feature Implementation**: Are additional features such as file upload (CSV uploads), Active Record callbacks for model lifecycle management, or custom rake tasks for database management included, demonstrating an advanced understanding of Rails capabilities?
+- [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included?
 
 ### Score (/5):
 
