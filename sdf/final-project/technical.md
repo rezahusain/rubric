@@ -86,7 +86,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Deployment
-- [ ] **Successful Deployment**: Is the application successfully deployed to a web server and accessible to the public? This includes being operational with all its core functionalities working as intended.
+- [ ] **Successful Deployment**: Is the application successfully deployed to a web server and accessible to the public?
 
 ### Bonus
 - [ ] **Custom Domain**: Has a custom domain name been configured for the application, enhancing its professionalism and brand identity?
@@ -96,19 +96,19 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Bonus (max 3)
-- [ ] Cloud Storage (eg image uploads w/ AWS S3)
-- [ ] Payments
-- [ ] Mailers (devise and/or custom)
-- [ ] Searching or filtering (eg ransack)
-- [ ] Map and/or Geocoding
-- [ ] Hotwire / Turbo / Stimulus
-- [ ] Pagination (eg kaminari)
-- [ ] Charts, graphs, or other data visualization (eg chartkick)
-- [ ] Meta tag image for links
-- [ ] Web Scraping
-- [ ] Chat GPT integration
-- [ ] Internationalization support (i18n)
-- [ ] Admin and/or business insights panel
+- [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
+- [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
+- [ ] **Custom Email Functionality**: Use of mailers (either through Devise or custom implementations) to send emails for account confirmation, password recovery, notifications, etc.
+- [ ] **Advanced Search and Filtering**: Incorporation of advanced search and filtering capabilities (e.g., using Ransack) to improve data retrieval and user experience.
+- [ ] **Mapping and Geolocation**: Use of mapping or geocoding libraries (e.g., Mapbox, Geocoder) to add location-based features to the application.
+- [ ] **Hotwire**: Implementation of Hotwire, Turbo, or Stimulus to create a dynamic, highly interactive user interface without relying heavily on traditional full-page reloads.
+- [ ] **Pagination**: Use of pagination libraries (e.g., Kaminari, will_paginate) to manage large sets of data efficiently on the UI.
+- [ ] **Data Visualization**: Integration of charts, graphs, or other visual representations of data (e.g., using Chartkick) to provide insightful views of data to the user.
+- [ ] **Dynamic Meta Tags**: Dynamic generation of meta tags for social media previews and SEO optimization, enhancing the application's presence on the web.
+- [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
+- [ ] **Chat GPT or AI Integration**: Implementation of Chat GPT or other AI services to provide intelligent responses or features. 
+- [ ] **Internationalization (i18n)**: Support for multiple languages using internationalization techniques, making the app accessible to a global audience.
+- [ ] **Admin and/or Business Insights Dashboard**: Creation of an admin panel and/or insights dashboard to provide valuable business intelligence or administrative capabilities.
 
 ### Score (/3):
 
