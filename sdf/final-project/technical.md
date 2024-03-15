@@ -13,7 +13,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Markdown**: Is the README formatted using Markdown?
 - [ ] **Naming**: Is the repository name relevant to the project?
 
-### Bonus (max 2)
+### Bonus (max 2pts)
 - [ ] **Visual Aids**: Does the documentation include visual aids such as screenshots, diagrams (e.g., architecture diagrams, ERDs), or GIFs to clarify complex concepts or demonstrate features?
 - [ ] **FAQs or Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [ ] **API Documentation (if applicable)**: For projects with an API, is there clear and detailed API documentation, including endpoints, request/response formats, and authentication methods?
@@ -57,7 +57,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery) utilized to enhance the UI with dynamic content and interactive elements, reducing unnecessary page reloads?
 - [ ] **Rails View Helpers**: Does the project leverage Rails view helpers (link_to, form_with, etc.) to streamline the generation of view code and enforce best practices in form and link creation?
 
-### Bonus (max 2)
+### Bonus (max 2pts)
 - [ ] **Responsive Design**: It looks and works great on all different devices (seamless user experience across desktop, tablet, and mobile)
 - [ ] **Accessibility Considerations**: Are accessibility features (such as alt tags for images, ARIA roles) implemented to support users with disabilities and to comply with web accessibility standards?
 - [ ] **Enhanced Navigation and Feedback**: Are breadcrumbs used to enhance site navigation? Are styled flashes or toasts implemented to provide clear, user-friendly feedback? (in a partial)
@@ -74,7 +74,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Association and Query Optimization**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) and scopes to organize data relationships and perform optimized database queries?
 - [ ] **Authorization and Access Control**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control across the application?
 
-### Bonus (max 2)
+### Bonus (max 2pts)
 - [ ] **Advanced Data Modeling**: Has the application utilized advanced ActiveRecord features, such as concerns, Active Record callbacks for model lifecycle management, or polymorphic associations to encapsulate business logic?
 - [ ] **Business Logic**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Background Processing**: Are background jobs (eg ActiveJob) implemented for time-consuming processes, improving app performance and user experience?
@@ -96,7 +96,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Bonus (max 3)
+## Bonus (max 3pts)
 - [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
 - [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
 - [ ] **Custom Email Functionality**: Use of mailers (either through Devise or custom implementations) to send emails for account confirmation, password recovery, notifications, etc.
