@@ -127,9 +127,3 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Total: 
 
 ## Additional overall comments for the entire review may be added below:
-```
-
-
-
-
-```
