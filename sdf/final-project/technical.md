@@ -100,11 +100,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Security and Authorization (max: 5 points)
-- [ ] **Security: credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
-- [ ] **Security: HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
-- [ ] **Security: Controllers and Strong Params**: Are strong parameters used to prevent mass assignment vulnerabilities? Are sensitive attributes assigned in the controller when necessary?
-- [ ] **Security: SQL injection**: Are ActiveRecord query methods (e.g., where, find_by) used to prevent SQL injection attacks?
-- [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control across the application?
+- [ ] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
+- [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
+- [ ] **Controllers**: Are sensitive attributes assigned in the controller when necessary?
+- [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
+- [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
 
 ### Notes:
 
