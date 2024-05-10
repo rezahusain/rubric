@@ -33,7 +33,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **ERD**: Does the documentation include visual an ERD?
 - [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [ ] **Screenshots**: Are there screenshots of the application in the README?
-- [ ] **API Documentation (if applicable)**: For projects with an API, is there clear and detailed API documentation, including endpoints, request/response formats, and authentication methods? 
+- [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
 
 ### Notes:
 
