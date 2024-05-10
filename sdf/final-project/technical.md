@@ -109,7 +109,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Ambitious Features (each: 2 points - max: 10 points)
-- [ ] **Receiving**: Implementation of ActiveMailbox to receive emails within the application.
+- [ ] **Receiving Email**: Implementation of ActiveMailbox to receive emails within the application.
 - [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
 - [ ] **Background Processing**: Are background jobs (eg ActiveJob) implemented for time-consuming processes, improving app performance and user experience?
 - [ ] **Mapping and Geolocation**: Use of mapping or geocoding libraries (e.g., Mapbox, Geocoder) to add location-based features to the application.
