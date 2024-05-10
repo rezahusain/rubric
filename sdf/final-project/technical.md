@@ -86,17 +86,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Deployment
-- [ ] **Successful Deployment**: Is the application successfully deployed to a web server and accessible to the public?
-
-### Bonus
-- [ ] **Custom Domain**: Has a custom domain name been configured for the application, enhancing its professionalism and brand identity?
-
-### Score (/5):
-
-### Notes:
-
-## Bonus (max 3pts)
+## Features (max 5pts)
 - [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
 - [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
 - [ ] **Custom Email Functionality**: Use of mailers (either through Devise or custom implementations) to send emails for account confirmation, password recovery, notifications, etc.
@@ -111,7 +101,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Internationalization (i18n)**: Support for multiple languages using internationalization techniques, making the app accessible to a global audience.
 - [ ] **Admin and/or Business Insights Dashboard**: Creation of an admin panel and/or insights dashboard to provide valuable business intelligence or administrative capabilities.
 
-### Score (/3):
+### Score (/5):
 
 ### Notes:
 
@@ -121,8 +111,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Code Hygiene (/5):
 - Frontend (/5):
 - Backend (/5):
-- Deployment (/5):
-- Bonus (/3):
+- Features (/5):
 ---
 - Total: 
 
