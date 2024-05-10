@@ -9,7 +9,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Technical Score (/80):
 - Readme (/10):
 - Version Control (/10):
-- Patterns of Enterprise Applications (/15):
+- Code Hygiene (/7):
+- Patterns of Enterprise Applications (/8):
 - Frontend (/10):
 - Backend (/10):
 - Security and Authorization (/5):
@@ -17,9 +18,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Enrichment (/10):
 
 ## Additional overall comments for the entire review may be added below:
-&nbsp;  
-&nbsp;  
-&nbsp;  
+
+
+
+
 
 ## Readme (max: 10 points)
 - [ ] **Markdown**: Is the README formatted using Markdown?
@@ -32,7 +34,6 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [ ] **Screenshots**: Are there screenshots of the application in the README?
 - [ ] **API Documentation (if applicable)**: For projects with an API, is there clear and detailed API documentation, including endpoints, request/response formats, and authentication methods? 
-<!-- is this for projects using external APIs or projects that are APIs? ^ -->
 
 ### Notes:
 
@@ -50,20 +51,24 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Patterns of Enterprise Applications (max: 15 points)
+## Code Hygiene (max: 7 points)
 - [ ] **Indentation**: Is the code consistently indented throughout the project?
 - [ ] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
 - [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase, snake_case, PascalCase) consistent throughout the project?
 - [ ] **Layouts**: Is the code making good use of Rails' layouts to provide consistent and reusable templates for the application's views?
 - [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
+- [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
+- [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
+
+### Notes:
+
+## Patterns of Enterprise Applications (max: 8 points)
 - [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
-- [ ] **Advanced Data Modeling**: Has the application utilized Active Record callbacks for model lifecycle management?
+- [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
 - [ ] **Modules**: Does the application use modules (concerns) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
-- [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
-- [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
 - [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
 
@@ -78,38 +83,36 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-friendly feedback?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery) utilized to reduce unnecessary page reloads for key features of the app?
 - [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
-- [ ] **Accessibility: alt tags**: Are alt tags implemented to support users with disabilities and to comply with web accessibility standards?
-- [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users with disabilities and to comply with web accessibility standards?
+- [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
+- [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
 ### Notes:
 
 ## Backend (max: 10 points)
 - [ ] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
-- [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and fat models?
+- [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
 - [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
-- [ ] **DRY queries**: Are database queries primarily implemented in the controller layer rather than in the views, following the principle of keeping views lightweight and focused on presentation logic?
+- [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views, following the principle of keeping views lightweight and focused on presentation logic?
 - [ ] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
 - [ ] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included?
 - [ ] **Testing**: Does the project include a comprehensive test suite (e.g., RSpec, Minitest) that covers models, controllers, and other critical components?
-<!-- is the below redundant with the README API doc? -->
-<!-- - [ ] **API Development**: Does the project provide a well-documented JSON API for integration with other services or frontend frameworks? -->
 
 ### Notes:
 
 ## Security and Authorization (max: 5 points)
 - [ ] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
 - [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
-- [ ] **Controllers**: Are sensitive attributes assigned in the controller when necessary?
+- [ ] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
 - [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
 - [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
 
 ### Notes:
 
 ## Ambitious Features (each: 2 points - max: 10 points)
-- [ ] **Receiving Email**: Implementation of ActiveMailbox to receive emails within the application.
+- [ ] **Receiving Email**: Implementation of ActionMailbox to receive emails within the application.
 - [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
 - [ ] **Background Processing**: Are background jobs (eg ActiveJob) implemented for time-consuming processes, improving app performance and user experience?
 - [ ] **Mapping and Geolocation**: Use of mapping or geocoding libraries (e.g., Mapbox, Geocoder) to add location-based features to the application.
