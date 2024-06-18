@@ -140,3 +140,16 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
 
 ### Notes:
+
+## Technical Score (/30):
+- Documentation (/5):
+- Version Control (/5):
+- Code Hygiene (/5):
+- Frontend (/5):
+- Backend (/5):
+- Deployment (/5):
+- Bonus (/3):
+---
+- Total: 
+
+## Additional overall comments for the entire review may be added below:

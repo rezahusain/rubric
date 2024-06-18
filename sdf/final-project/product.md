@@ -36,8 +36,9 @@ How well does the deployed app satisfy the functional requirements?
 - [ ] **Explanation of Features and Benefits**: Is there a concise explanation of how the app works, through a combination of text, visuals (e.g., how-to videos, infographics), and possibly user testimonials or case studies, to illustrate the app's key features and benefits?
 - [ ] **Demo Video**: Does the landing page include a demo video (or gif) that allows visitors to experience the app's functionality firsthand without needing to sign up?
 
-### Bonus (max 1pt)
+### Bonus (max 2pts)
 - [ ] **Social Proof**: Are there elements of social proof, such as testimonials, user reviews, or media mentions, that build trust and credibility with the audience?
+- [ ] **Custom Domain**: Has a custom domain name been configured for the application, enhancing its professionalism and brand identity?
 
 ### Score (/5):
 
