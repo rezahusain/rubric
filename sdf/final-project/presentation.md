@@ -3,7 +3,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 - Date/Time:
 - Trainee Name:
-- Project Name: 
+- Project Name:
 - Reviewer Name:
 
 ## Story
