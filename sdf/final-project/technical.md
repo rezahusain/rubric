@@ -6,23 +6,6 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Project Name:
 - Reviewer Name:
 
-## Technical Score (/80):
-- Readme (/10):
-- Version Control (/10):
-- Code Hygiene (/7):
-- Patterns of Enterprise Applications (/8):
-- Frontend (/10):
-- Backend (/10):
-- Security and Authorization (/5):
-- Ambitious Features (/10):
-- Enrichment (/10):
-
-## Additional overall comments for the entire review may be added below:
-
-
-
-
-
 ## Readme (max: 10 points)
 - [ ] **Markdown**: Is the README formatted using Markdown?
 - [ ] **Naming**: Is the repository name relevant to the project?
@@ -34,6 +17,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [ ] **Screenshots**: Are there screenshots of the application in the README?
 - [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
+
+### Score (/10):
 
 ### Notes:
 
@@ -49,6 +34,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
 - [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
+### Score (/10):
+
 ### Notes:
 
 ## Code Hygiene (max: 7 points)
@@ -59,6 +46,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
+
+### Score (/7):
 
 ### Notes:
 
@@ -71,6 +60,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
 - [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
+
+### Score (/8):
 
 ### Notes:
 
@@ -86,6 +77,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
+### Score (/10):
+
 ### Notes:
 
 ## Backend (max: 10 points)
@@ -100,6 +93,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included?
 - [ ] **Testing**: Does the project include a comprehensive test suite (e.g., RSpec, Minitest) that covers models, controllers, and other critical components?
 
+### Score (/10):
+
 ### Notes:
 
 ## Security and Authorization (max: 5 points)
@@ -108,6 +103,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
 - [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
 - [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
+
+### Score (/5):
 
 ### Notes:
 
@@ -122,6 +119,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Hotwire**: Implementation of Hotwire, Turbo, or Stimulus to create a dynamic, highly interactive user interface without relying heavily on traditional full-page reloads.
 - [ ] **OAuth**: Implementation of OAuth for secure, third-party authentication.
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
+
+### Score (/10):
 
 ### Notes:
 
@@ -139,17 +138,24 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Performance Optimization**: Is the Bullet gem (or similar) used in development to detect and reduce N+1 queries and other common performance bottlenecks?
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
 
+### Score (/10):
+
 ### Notes:
 
-## Technical Score (/30):
-- Documentation (/5):
-- Version Control (/5):
-- Code Hygiene (/5):
-- Frontend (/5):
-- Backend (/5):
-- Deployment (/5):
-- Bonus (/3):
----
-- Total: 
+## Technical Score (/80):
+- Readme (/10):
+- Version Control (/10):
+- Code Hygiene (/7):
+- Patterns of Enterprise Applications (/8):
+- Frontend (/10):
+- Backend (/10):
+- Security and Authorization (/5):
+- Ambitious Features (/10):
+- Enrichment (/10):
 
 ## Additional overall comments for the entire review may be added below:
+```
+
+
+
+```
