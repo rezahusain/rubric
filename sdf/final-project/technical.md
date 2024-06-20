@@ -55,14 +55,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
-<!-- TODO: do we want to have 2 module check boxes? 1 for backend (concerns), 1 for frontend (es6) -->
-- [ ] **Modules**: Does the application effectively use modules (concerns, es6, etc.) to encapsulate related functionality and promote code organization?
+- [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
+- [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
+- [ ] **Event-Driven Architecture**: Does the application use event-driven architecture (e.g., pub-sub) to decouple components and improve scalability? (for example ActionCable https://guides.rubyonrails.org/action_cable_overview.html)
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
 - [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
-
-<!-- TODO: maybe add event driven pattern? -->
 
 ### Score (/8):
 
@@ -73,9 +72,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Tablet Design**: It looks and works great on tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
 - [ ] **Desktop Design**: It looks and works great on desktop.
 - [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
-- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable)?
-- [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-friendly feedback?
-- [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery) utilized to reduce unnecessary page reloads for key features of the app?
+- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)?
+- [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
+- [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
