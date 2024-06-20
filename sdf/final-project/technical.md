@@ -55,11 +55,14 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
-- [ ] **Modules**: Does the application use modules (concerns) to encapsulate related functionality and promote code organization?
+<!-- TODO: do we want to have 2 module check boxes? 1 for backend (concerns), 1 for frontend (es6) -->
+- [ ] **Modules**: Does the application effectively use modules (concerns, es6, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
 - [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
+
+<!-- TODO: maybe add event driven pattern? -->
 
 ### Score (/8):
 
@@ -85,13 +88,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
 - [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
 - [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
-- [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views, following the principle of keeping views lightweight and focused on presentation logic?
+- [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
 - [ ] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
 - [ ] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included? (e.g. slurp.rake task)
-- [ ] **Testing**: Does the project include a test suite (e.g., RSpec, Minitest) that covers keys flows or logic components?
+- [ ] **Testing**: Does the project include a test suite (e.g., RSpec, Minitest) that covers key flows or logic components?
 
 ### Score (/10):
 
