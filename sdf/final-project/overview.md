@@ -9,8 +9,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Overall Score
 - [Presentation](./presentation.md) (/30):
 - [Product](./product.md) (/15):
-- [Technical](./technical.md) (/30):
+- [Technical](./technical.md) (/80):
 ---
-- Overall (/60):
+- Overall (/125):
 
 ## Additional overall comments for the entire review may be added below:
