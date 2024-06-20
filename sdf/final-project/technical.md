@@ -41,7 +41,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Code Hygiene (max: 7 points)
 - [ ] **Indentation**: Is the code consistently indented throughout the project?
 - [ ] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
-- [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase, snake_case, PascalCase) consistent throughout the project?
+- [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase for javascript, snake_case for ruby, PascalCase for ruby classes) consistent throughout the project? 
 - [ ] **Layouts**: Is the code utilizing Rails' application.html.erb layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
 - [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
