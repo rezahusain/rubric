@@ -90,7 +90,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
-- [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included?
+- [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included? (e.g. slurp.rake task)
 - [ ] **Testing**: Does the project include a test suite (e.g., RSpec, Minitest) that covers keys flows or logic components?
 
 ### Score (/10):
