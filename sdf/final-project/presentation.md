@@ -12,7 +12,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Target Problem**: Does the presentation clearly identify the problem the project addresses?
 - [ ] **Market Research and Problem Validation**: Is there evidence of market research or validation efforts, such as discussions with potential users, references to previous work/life experiences, and quanitative analysis?
 - [ ] **Solution Appeal and Usability**: Is the proposed solution presented in an engaging and compelling manner, making it easy to envision real users benefiting from and engaging with the application?
-- [ ] **Business Value and Professional Preparation**: Is the project's business value articulated, including how the solution addresses a tangible market need or opportunity? Is there a clear connection between the project work and the skills or experiences that prepare trainees for professional roles, potentially linking to industry categories or needs (e.g., as outlined on https://rfp.dpi.dev)?
+- [ ] **Professional Preparation**: Is there a clear connection between the project work and the skills or experiences that prepare trainees for professional roles, potentially linking to industry categories or needs (e.g., as outlined on https://rfp.dpi.dev)?
 - [ ] **Compelling**: Is there a hook? Is the presentation compelling/captivating?
 - [ ] **Transition and Flow**: Are transitions between slides smooth and logical, contributing to a cohesive flow of the presentation without causing distractions?
 - [ ] **Closing**: Does the presentation have a strong closing? <!-- what does this mean? -->
@@ -48,7 +48,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Pace and Pauses**: Does the speaker maintian proper pacing that allows the audience to easily follow along without feeling rushed or losing interest?
 - [ ] **Alignment with Slides**: Is the narration concise and consistently aligned with the slide content, ensuring a coherent and unified presentation?
 
-### Score (/7):
+### Score (/5):
 
 ### Notes:
 
@@ -66,7 +66,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Time
-- [ ] **Adherence to Time Limit**: Does the speaker effectively manage their time, completing their presentation within the allotted time frame (3-5 minutes), demonstrating respect for the audience's time and attention?
+- [ ] **Adherence to Time Limit** (2pts): Does the speaker effectively manage their time, completing their presentation within the allotted time frame (3-5 minutes), demonstrating respect for the audience's time and attention? (Give 1 pt for < 5:30, 0 for > 5:30)
 
 ## Presentation Score (/29):
 - Story (/9):
@@ -74,9 +74,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Video (/2):
 - Speaking (/5):
 - Executive Presence (/7):
-- Time (/1):
+- Time (/2):
 ---
-- Total: 
+- Total (/30):
 
 ## Additional overall comments for the entire review may be added below:
 ```
