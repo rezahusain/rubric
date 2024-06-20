@@ -19,7 +19,7 @@ Should have a functional requirements document with:
 ### Notes:
 
 ## Satisfy Functional Requirements
-How well does the deployed app satisfy the functional requirements?
+How well does the deployed app satisfy the functional requirements? Test for each user story in the functional requirements.
 - [ ] **0** - did not deploy or does not satisfy any of the functional requirements
 - [ ] **1-2** - some requirements satisfied, but major gaps and/or bugs
 - [ ] **3-4** - most requirements satisfied, but still more work needed
@@ -31,23 +31,22 @@ How well does the deployed app satisfy the functional requirements?
 
 ## Landing Page
 - [ ] **Design and Professionalism**: Does the landing page present a professional and appealing design, utilizing a consistent color scheme, typography, and high-quality images/graphics to create a positive first impression?
-- [ ] **Clear Value Proposition and Audience Targeting**: Is the value proposition prominently displayed, clearly explaining who the app is for, what problem it solves, and why it's beneficial to the target audience?
+- [ ] **Clear Value Proposition**: Is the value proposition prominently displayed, clearly explaining what problem it solves, and why it's beneficial?
+- [ ] **Audience Targeting**: Is the target audience clearly communicated?
 - [ ] **Call to Action (CTA)**: Does the page feature a clear and compelling call to action (CTA), such as a sign-up or get-started button, that is easily identifiable and encourages visitors to engage with the app?
-- [ ] **Explanation of Features and Benefits**: Is there a concise explanation of how the app works, through a combination of text, visuals (e.g., how-to videos, infographics), and possibly user testimonials or case studies, to illustrate the app's key features and benefits?
+- [ ] **Explanation of Features and Benefits**: Is there a concise explanation of how the app works, through a combination of text, visuals (e.g. infographics), and possibly user testimonials or case studies, to illustrate the app's key features and benefits?
 - [ ] **Demo Video**: Does the landing page include a demo video (or gif) that allows visitors to experience the app's functionality firsthand without needing to sign up?
-
-### Bonus (max 2pts)
 - [ ] **Social Proof**: Are there elements of social proof, such as testimonials, user reviews, or media mentions, that build trust and credibility with the audience?
 - [ ] **Custom Domain**: Has a custom domain name been configured for the application, enhancing its professionalism and brand identity?
 
-### Score (/5):
+### Score (/8):
 
 ### Notes:
 
-## Product Score (/15):
+## Product Score (/18):
 - Functional Requirements Document (/5):
 - Satisfy Functional Requirements (/5):
-- Landing Page (/5):
+- Landing Page (/8):
 ---
 - Total: 
 
