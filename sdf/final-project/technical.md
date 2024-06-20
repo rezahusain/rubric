@@ -152,6 +152,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Security and Authorization (/5):
 - Ambitious Features (/10):
 - Enrichment (/10):
+---
+- Total: 
 
 ## Additional overall comments for the entire review may be added below:
 ```
