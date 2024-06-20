@@ -66,7 +66,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Time
-- [ ] **Adherence to Time Limit** (2pts): Does the speaker effectively manage their time, completing their presentation within the allotted time frame (3-5 minutes), demonstrating respect for the audience's time and attention? (Give 1 pt for < 5:30, 0 for > 5:30)
+- [ ] **Adherence to Time Limit** (2pts): Does the speaker effectively manage their time, completing their presentation within the allotted time frame (3-5 minutes), demonstrating respect for the audience's time and attention?
+  - 1 pt for < 5:30 
+  - 0 for > 5:30
+
+### Score (/2):
+
+### Notes:
 
 ## Presentation Score (/29):
 - Story (/9):
