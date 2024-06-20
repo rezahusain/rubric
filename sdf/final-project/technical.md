@@ -6,7 +6,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Project Name:
 - Reviewer Name:
 
-## Technical Score (/80):
+## Technical Score - Total (/80):
 - Readme (/10):
 - Version Control (/10):
 - Code Hygiene (/7):
@@ -30,9 +30,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
 - [ ] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
 - [ ] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
-- [ ] **ERD**: Does the documentation include visual an ERD?
+- [ ] **ERD**: Does the documentation include an entity relationship diagram?
 - [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
-- [ ] **Screenshots**: Are there screenshots of the application in the README?
+- [ ] **Visual Aids**: Are there visual aids (diagrams, screenshots, etc.) that would help developers quickly ramp on to the project?
 - [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
 
 ### Notes:
@@ -44,8 +44,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
 - [ ] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
 - [ ] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
-- [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items?
-- [ ] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors before merging, ensuring code quality and collaborative learning?
+- [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
+- [ ] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
 - [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
@@ -119,7 +119,6 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
 - [ ] **Chat GPT or AI Integration**: Implementation of Chat GPT or other AI services to provide intelligent responses or features. 
 - [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
-- [ ] **Hotwire**: Implementation of Hotwire, Turbo, or Stimulus to create a dynamic, highly interactive user interface without relying heavily on traditional full-page reloads.
 - [ ] **OAuth**: Implementation of OAuth for secure, third-party authentication.
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
 
@@ -137,19 +136,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Business Insights Dashboard**: Creation of an insights dashboard to provide valuable business intelligence capabilities (Blazer or similar).
 - [ ] **Enhanced Navigation**: Are breadcrumbs (or similar) used to enhance site navigation?
 - [ ] **Performance Optimization**: Is the Bullet gem (or similar) used in development to detect and reduce N+1 queries and other common performance bottlenecks?
+- [ ] **Stimulus**: Implementation of Stimulus.js to enhance interactivity and user experience on the frontend.
+- [ ] **Turbo Frames**: Implementation of Turbo Frames to enhance the performance of the application by updating only parts of the page.
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
 
 ### Notes:
-
-## Technical Score (/30):
-- Documentation (/5):
-- Version Control (/5):
-- Code Hygiene (/5):
-- Frontend (/5):
-- Backend (/5):
-- Deployment (/5):
-- Bonus (/3):
----
-- Total: 
-
-## Additional overall comments for the entire review may be added below:
