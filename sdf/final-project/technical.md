@@ -91,7 +91,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included?
-- [ ] **Testing**: Does the project include a comprehensive test suite (e.g., RSpec, Minitest) that covers models, controllers, and other critical components?
+- [ ] **Testing**: Does the project include a test suite (e.g., RSpec, Minitest) that covers keys flows or logic components?
 
 ### Score (/10):
 
