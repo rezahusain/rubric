@@ -128,23 +128,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Ambitious Features (each: 2 points - max: 20 points)
-- [ ] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
-- [ ] **Inbound SMS**: Does the application handle receiving SMS messages? (eg Twilio)
-- [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
-- [ ] **Background Processing**: Are background jobs (eg `ActiveJob`) implemented for time-consuming processes, improving app performance and user experience?
-- [ ] **Mapping and Geolocation**: Use of mapping or geocoding libraries (e.g., Mapbox, Geocoder) to add location-based features to the application.
-- [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
-- [ ] **Chat GPT or AI Integration**: Implementation of Chat GPT or other AI services to provide intelligent responses or features. 
-- [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
-- [ ] **OAuth**: Implementation of OAuth for secure, third-party authentication.
-- [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
-
-### Score (/10):
-
-### Notes:
-
-## Enrichment (each: 1 point - max: 15 points)
+## Features (each: 1 point - max: 15 points)
 - [ ] **Sending Email**: Does the application send transactional emails (e.g., welcome emails, password reset emails) to users?
 - [ ] **Sending SMS**: Does the application send transactional SMS messages to users?
 - [ ] **Building for Mobile**: Implementation of a Progressive Web App (PWA) to provide a mobile app-like experience on the web.
@@ -161,11 +145,28 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Turbo Frames**: Implementation of Turbo Frames to enhance the performance of the application by updating only parts of the page.
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
 
-### Score (/10):
+### Score (/15):
 
 ### Notes:
 
-## Technical Score (/104):
+
+## Ambitious Features (each: 2 points - max: 16 points)
+- [ ] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
+- [ ] **Inbound SMS**: Does the application handle receiving SMS messages? (eg Twilio)
+- [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
+- [ ] **Background Processing**: Are background jobs (eg `ActiveJob`) implemented for time-consuming processes, improving app performance and user experience?
+- [ ] **Mapping and Geolocation**: Use of mapping or geocoding libraries (e.g., Mapbox, Geocoder) to add location-based features to the application.
+- [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
+- [ ] **Chat GPT or AI Integration**: Implementation of Chat GPT or other AI services to provide intelligent responses or features. 
+- [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
+- [ ] **OAuth**: Implementation of OAuth for secure, third-party authentication.
+- [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
+
+### Score (/16):
+
+### Notes:
+
+## Technical Score (/100):
 - Readme (/10):
 - Version Control (/10):
 - Code Hygiene (/8):
@@ -175,7 +176,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Backend (/10):
 - Quality Assurance and Testing (/2):
 - Security and Authorization (/5):
-- Ambitious Features (/20):
+- Ambitious Features (/16):
 - Enrichment (/15):
 ---
 - Total: 
