@@ -64,7 +64,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
 - [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
 
-### Score (/8):
+### Score (/10):
 
 ### Notes:
 
@@ -83,7 +83,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
 - [ ] **Desktop Design**: It looks and works great on desktop.
 - [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
-- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)?
+- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
 - [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
@@ -104,9 +104,16 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included? (e.g. slurp.rake task)
-- [ ] **Testing**: Does the project include a test suite (e.g., RSpec, Minitest) that covers key flows or logic components?
 
-### Score (/10):
+### Score (/9):
+
+### Notes:
+
+## Quality Assurance and Testing (max: 2 points)
+- [ ] **End to End Test Plan**: Does the project include an end to end test plan?
+- [ ] **Automated Testing**: Does the project include a test suite (e.g., RSpec, Minitest, Jest, etc.) that covers key flows or logic components?
+
+### Score (/2):
 
 ### Notes:
 
@@ -121,10 +128,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Ambitious Features (each: 2 points - max: 10 points)
-- [ ] **Receiving Email**: Implementation of ActionMailbox to receive emails within the application.
+## Ambitious Features (each: 2 points - max: 20 points)
+- [ ] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
+- [ ] **Inbound SMS**: Does the application handle receiving SMS messages? (eg Twilio)
 - [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
-- [ ] **Background Processing**: Are background jobs (eg ActiveJob) implemented for time-consuming processes, improving app performance and user experience?
+- [ ] **Background Processing**: Are background jobs (eg `ActiveJob`) implemented for time-consuming processes, improving app performance and user experience?
 - [ ] **Mapping and Geolocation**: Use of mapping or geocoding libraries (e.g., Mapbox, Geocoder) to add location-based features to the application.
 - [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
 - [ ] **Chat GPT or AI Integration**: Implementation of Chat GPT or other AI services to provide intelligent responses or features. 
@@ -136,8 +144,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Enrichment (each: 1 point - max: 10 points)
+## Enrichment (each: 1 point - max: 15 points)
 - [ ] **Sending Email**: Does the application send transactional emails (e.g., welcome emails, password reset emails) to users?
+- [ ] **Sending SMS**: Does the application send transactional SMS messages to users?
 - [ ] **Building for Mobile**: Implementation of a Progressive Web App (PWA) to provide a mobile app-like experience on the web.
 - [ ] **Advanced Search and Filtering**: Incorporation of advanced search and filtering capabilities (Ransack or similar) to improve data retrieval and user experience.
 - [ ] **Data Visualization**: Integration of charts, graphs, or other visual representations of data (Chartkick or similar) to provide insightful views of data to the user.
@@ -156,7 +165,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Technical Score (/87):
+## Technical Score (/104):
 - Readme (/10):
 - Version Control (/10):
 - Code Hygiene (/8):
@@ -164,9 +173,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Design (/5):
 - Frontend (/9):
 - Backend (/10):
+- Quality Assurance and Testing (/2):
 - Security and Authorization (/5):
-- Ambitious Features (/10):
-- Enrichment (/10):
+- Ambitious Features (/20):
+- Enrichment (/15):
 ---
 - Total: 
 
