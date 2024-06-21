@@ -38,20 +38,21 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Code Hygiene (max: 7 points)
+## Code Hygiene (max: 8 points)
 - [ ] **Indentation**: Is the code consistently indented throughout the project?
 - [ ] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
-- [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase for javascript, snake_case for ruby, PascalCase for ruby classes) consistent throughout the project? 
+- [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
 - [ ] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
 - [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
+- [ ] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
 
-### Score (/7):
+### Score (/8):
 
 ### Notes:
 
-## Patterns of Enterprise Applications (max: 8 points)
+## Patterns of Enterprise Applications (max: 10 points)
 - [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
@@ -67,9 +68,19 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Frontend (max: 10 points)
-- [ ] **Mobile Design**: It looks and works great on mobile (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
-- [ ] **Tablet Design**: It looks and works great on tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
+## Design (max: 5 points)
+- [ ] **Readability**: Ensure the text is easily readable. Avoid color combinations that make text difficult to read (e.g., white text on a bright pink background).
+- [ ] **Line length**: The horizontal width of text blocks should be no more than 2–3 lowercase alphabets.
+- [ ] **Font Choices**: Use appropriate font sizes, weights, and styles to enhance readability and visual appeal.
+- [ ] **Consistency**: Maintain consistent font usage and colors throughout the project.
+- [ ] **Double Your Whitespace**: Ensure ample spacing around elements to enhance readability and visual clarity. Avoid cluttered layouts by doubling the whitespace where appropriate.
+
+### Score (/5):
+
+### Notes:
+
+## Frontend (max: 9 points)
+- [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
 - [ ] **Desktop Design**: It looks and works great on desktop.
 - [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
 - [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)?
@@ -79,7 +90,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
-### Score (/10):
+### Score (/9):
 
 ### Notes:
 
@@ -145,12 +156,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Technical Score (/80):
+## Technical Score (/87):
 - Readme (/10):
 - Version Control (/10):
-- Code Hygiene (/7):
-- Patterns of Enterprise Applications (/8):
-- Frontend (/10):
+- Code Hygiene (/8):
+- Patterns of Enterprise Applications (/10):
+- Design (/5):
+- Frontend (/9):
 - Backend (/10):
 - Security and Authorization (/5):
 - Ambitious Features (/10):
