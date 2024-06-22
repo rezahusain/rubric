@@ -79,13 +79,14 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Frontend (max: 9 points)
+## Frontend (max: 10 points)
 - [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
 - [ ] **Desktop Design**: It looks and works great on desktop.
 - [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
 - [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
 - [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
+- [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
 - [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
@@ -128,7 +129,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Features (each: 1 point - max: 15 points)
+## Features (each: 1 point - max: 14 points)
 - [ ] **Sending Email**: Does the application send transactional emails (e.g., welcome emails, password reset emails) to users?
 - [ ] **Sending SMS**: Does the application send transactional SMS messages to users?
 - [ ] **Building for Mobile**: Implementation of a Progressive Web App (PWA) to provide a mobile app-like experience on the web.
@@ -172,12 +173,12 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Code Hygiene (/8):
 - Patterns of Enterprise Applications (/10):
 - Design (/5):
-- Frontend (/9):
+- Frontend (/10):
 - Backend (/10):
 - Quality Assurance and Testing (/2):
 - Security and Authorization (/5):
 - Ambitious Features (/16):
-- Enrichment (/15):
+- Features (/14):
 ---
 - Total: 
 
