@@ -74,7 +74,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Presentation Score (/29):
+## Presentation Score (/30):
 - Story (/9):
 - Slides (/5):
 - Video (/2):
