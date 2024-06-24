@@ -91,11 +91,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
-### Score (/9):
+### Score (/10):
 
 ### Notes:
 
-## Backend (max: 10 points)
+## Backend (max: 9 points)
 - [ ] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
 - [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
 - [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
@@ -129,7 +129,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ### Notes:
 
-## Features (each: 1 point - max: 14 points)
+## Features (each: 1 point - max: 15 points)
 - [ ] **Sending Email**: Does the application send transactional emails (e.g., welcome emails, password reset emails) to users?
 - [ ] **Sending SMS**: Does the application send transactional SMS messages to users?
 - [ ] **Building for Mobile**: Implementation of a Progressive Web App (PWA) to provide a mobile app-like experience on the web.
@@ -174,11 +174,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Patterns of Enterprise Applications (/10):
 - Design (/5):
 - Frontend (/10):
-- Backend (/10):
+- Backend (/9):
 - Quality Assurance and Testing (/2):
 - Security and Authorization (/5):
 - Ambitious Features (/16):
-- Features (/14):
+- Features (/15):
 ---
 - Total: 
 
