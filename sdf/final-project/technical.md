@@ -7,10 +7,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Reviewer Name:
 
 ## Readme (max: 10 points)
-- [ ] **Markdown**: Is the README formatted using Markdown?
-- [ ] **Naming**: Is the repository name relevant to the project?
-- [ ] **1-liner**: Is there a 1-liner briefly describing the project?
-- [ ] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
+- [x] **Markdown**: Is the README formatted using Markdown?
+- [x] **Naming**: Is the repository name relevant to the project?
+- [x] **1-liner**: Is there a 1-liner briefly describing the project?
+- [x] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
 - [ ] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
 - [ ] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
 - [ ] **ERD**: Does the documentation include an entity relationship diagram?
@@ -23,10 +23,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Version Control (max: 10 points)
-- [ ] **Version Control**: Is the project using a version control system such as Git?
-- [ ] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
-- [ ] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
-- [ ] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
+- [x] **Version Control**: Is the project using a version control system such as Git?
+- [x] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
+- [x] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
+- [x] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
 - [ ] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
 - [ ] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
 - [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
@@ -39,11 +39,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Code Hygiene (max: 8 points)
-- [ ] **Indentation**: Is the code consistently indented throughout the project?
-- [ ] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
-- [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
-- [ ] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
-- [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
+- [x] **Indentation**: Is the code consistently indented throughout the project?
+- [x] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
+- [x] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
+- [x] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
+- [x] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
 - [ ] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
