@@ -7,26 +7,26 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Reviewer Name:
 
 ## Story
-- [ ] **Introduction**: Does the presentation start with an introduction covering previous work/life experiences and connection to the problem?
-- [ ] **Target User**: Does the presentation clearly identify the target user?
-- [ ] **Target Problem**: Does the presentation clearly identify the problem the project addresses?
-- [ ] **Market Research and Problem Validation**: Is there evidence of market research or validation efforts, such as discussions with potential users, references to previous work/life experiences, and quanitative analysis?
-- [ ] **Solution Appeal and Usability**: Is the proposed solution presented in an engaging and compelling manner, making it easy to envision real users benefiting from and engaging with the application?
+- [x] **Introduction**: Does the presentation start with an introduction covering previous work/life experiences and connection to the problem?
+- [x] **Target User**: Does the presentation clearly identify the target user?
+- [x] **Target Problem**: Does the presentation clearly identify the problem the project addresses?
+- [x] **Market Research and Problem Validation**: Is there evidence of market research or validation efforts, such as discussions with potential users, references to previous work/life experiences, and quanitative analysis?
+- [x] **Solution Appeal and Usability**: Is the proposed solution presented in an engaging and compelling manner, making it easy to envision real users benefiting from and engaging with the application?
 - [ ] **Professional Preparation**: Is there a clear connection between the project work and the skills or experiences that prepare trainees for professional roles, potentially linking to industry categories or needs (e.g., as outlined on https://rfp.dpi.dev)?
-- [ ] **Compelling**: Is there a hook? Is the presentation compelling/captivating?
-- [ ] **Transition and Flow**: Are transitions between slides smooth and logical, contributing to a cohesive flow of the presentation without causing distractions?
-- [ ] **Closing**: Does the presentation have a strong closing? <!-- what does this mean? -->
+- [x] **Compelling**: Is there a hook? Is the presentation compelling/captivating?
+- [x] **Transition and Flow**: Are transitions between slides smooth and logical, contributing to a cohesive flow of the presentation without causing distractions?
+- [x] **Closing**: Does the presentation have a strong closing? <!-- what does this mean? -->
 
 ### Score (/9):
 
 ### Notes:
 
 ## Slides
-- [ ] **Clarity and Accessibility**: Are the slides designed to be clear and easily understandable by a general audience, avoiding technical jargon or overly complex explanations unless necessary?
-- [ ] **Conciseness of Text**: Is the text on the slides minimal and concise, focusing on key points to avoid overwhelming the audience with too much information at once?
-- [ ] **Readability**: Is the font size large enough to be easily read from a distance, with a clear font type and sufficient contrast between text and background?
-- [ ] **Visual Aesthetics**: Are the slides aesthetically pleasing, utilizing a consistent and professional theme, color scheme, and imagery consistent with expecations of the workplace?
-- [ ] **Graphics and Charts**: Are graphics, charts, or diagrams used effectively to illustrate points, demonstrate relationships, or convey data in an easily digestible format?
+- [x] **Clarity and Accessibility**: Are the slides designed to be clear and easily understandable by a general audience, avoiding technical jargon or overly complex explanations unless necessary?
+- [x] **Conciseness of Text**: Is the text on the slides minimal and concise, focusing on key points to avoid overwhelming the audience with too much information at once?
+- [x] **Readability**: Is the font size large enough to be easily read from a distance, with a clear font type and sufficient contrast between text and background?
+- [x] **Visual Aesthetics**: Are the slides aesthetically pleasing, utilizing a consistent and professional theme, color scheme, and imagery consistent with expecations of the workplace?
+- [x] **Graphics and Charts**: Are graphics, charts, or diagrams used effectively to illustrate points, demonstrate relationships, or convey data in an easily digestible format?
 
 ### Score (/5):
 
@@ -34,8 +34,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Video
 
-- [ ] **Video**: Does the presentation include a demo video, screencast, or GIF that showcases the actual application, providing a visual understanding of the app's functionality?
-- [ ] **Video Focus**: Does the demo video, screencast, or GIF focus on the unique and significant features of the app, skipping generic features like sign-up/sign-in?
+- [x] **Video**: Does the presentation include a demo video, screencast, or GIF that showcases the actual application, providing a visual understanding of the app's functionality?
+- [x] **Video Focus**: Does the demo video, screencast, or GIF focus on the unique and significant features of the app, skipping generic features like sign-up/sign-in?
 
 ### Score (/2):
 
