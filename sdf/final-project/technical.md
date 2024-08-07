@@ -27,8 +27,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
 - [x] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
 - [x] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
-- [ ] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
-- [ ] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
+- [x] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
+- [x] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
 - [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
 - [ ] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
@@ -53,9 +53,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Patterns of Enterprise Applications (max: 10 points)
-- [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
-- [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
-- [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
+- [x] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
+- [x] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
+- [x] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
 - [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
@@ -69,26 +69,26 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Design (max: 5 points)
-- [ ] **Readability**: Ensure the text is easily readable. Avoid color combinations that make text difficult to read (e.g., white text on a bright pink background).
-- [ ] **Line length**: The horizontal width of text blocks should be no more than 2–3 lowercase alphabets.
-- [ ] **Font Choices**: Use appropriate font sizes, weights, and styles to enhance readability and visual appeal.
-- [ ] **Consistency**: Maintain consistent font usage and colors throughout the project.
-- [ ] **Double Your Whitespace**: Ensure ample spacing around elements to enhance readability and visual clarity. Avoid cluttered layouts by doubling the whitespace where appropriate.
+- [x] **Readability**: Ensure the text is easily readable. Avoid color combinations that make text difficult to read (e.g., white text on a bright pink background).
+- [x] **Line length**: The horizontal width of text blocks should be no more than 2–3 lowercase alphabets.
+- [x] **Font Choices**: Use appropriate font sizes, weights, and styles to enhance readability and visual appeal.
+- [x] **Consistency**: Maintain consistent font usage and colors throughout the project.
+- [x] **Double Your Whitespace**: Ensure ample spacing around elements to enhance readability and visual clarity. Avoid cluttered layouts by doubling the whitespace where appropriate.
 
 ### Score (/5):
 
 ### Notes:
 
 ## Frontend (max: 10 points)
-- [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
-- [ ] **Desktop Design**: It looks and works great on desktop.
-- [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
-- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
-- [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
+- [x] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
+- [x] **Desktop Design**: It looks and works great on desktop.
+- [x] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
+- [x] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
+- [x] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
-- [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
-- [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
+- [x] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
+- [x] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
 ### Score (/10):
@@ -96,13 +96,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Backend (max: 9 points)
-- [ ] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
-- [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
-- [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
-- [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
-- [ ] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
-- [ ] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
-- [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
+- [x] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
+- [x] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
+- [x] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
+- [x] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
+- [x] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
+- [x] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
+- [x] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [ ] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included? (e.g. slurp.rake task)
 
@@ -136,7 +136,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Advanced Search and Filtering**: Incorporation of advanced search and filtering capabilities (Ransack or similar) to improve data retrieval and user experience.
 - [ ] **Data Visualization**: Integration of charts, graphs, or other visual representations of data (Chartkick or similar) to provide insightful views of data to the user.
 - [ ] **Dynamic Meta Tags**: Dynamic generation of meta tags for social media previews and SEO optimization, enhancing the application's presence on the web.
-- [ ] **Pagination**: Use of pagination libraries (Kaminari, will_paginate, or similar) to manage large sets of data efficiently on the UI.
+- [x] **Pagination**: Use of pagination libraries (Kaminari, will_paginate, or similar) to manage large sets of data efficiently on the UI.
 - [ ] **Internationalization (i18n)**: Support for multiple languages using internationalization techniques, making the app accessible to a global audience.
 - [ ] **Admin Dashboard**: Creation of an admin panel to provide valuable administrative capabilities (Rails Admin or similar).
 - [ ] **Business Insights Dashboard**: Creation of an insights dashboard to provide valuable business intelligence capabilities (Blazer or similar).
@@ -152,7 +152,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 
 ## Ambitious Features (each: 2 points - max: 16 points)
-- [ ] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
+- [x] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
 - [ ] **Inbound SMS**: Does the application handle receiving SMS messages? (eg Twilio)
 - [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
 - [ ] **Background Processing**: Are background jobs (eg `ActiveJob`) implemented for time-consuming processes, improving app performance and user experience?
