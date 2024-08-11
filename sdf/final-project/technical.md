@@ -30,7 +30,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
 - [x] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
 - [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
-- [ ] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
+- [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
 - [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
@@ -44,9 +44,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
 - [x] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
 - [x] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
-- [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
+- [x] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
-- [ ] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
+- [x] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
 
 ### Score (/8):
 
@@ -61,8 +61,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
 - [ ] **Event-Driven Architecture**: Does the application use event-driven architecture (e.g., pub-sub) to decouple components and improve scalability? (for example ActionCable https://guides.rubyonrails.org/action_cable_overview.html)
-- [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
-- [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
+- [x] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
+- [x] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
 
 ### Score (/10):
 
@@ -152,7 +152,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 
 ## Ambitious Features (each: 2 points - max: 16 points)
-- [x] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
+- [ ] **Receiving Email**: Does the application handle incoming emails? (eg `ActionMailbox`)
 - [ ] **Inbound SMS**: Does the application handle receiving SMS messages? (eg Twilio)
 - [ ] **Web Scraping Capabilities**: Incorporation of web scraping functionality to extract data from external websites.
 - [ ] **Background Processing**: Are background jobs (eg `ActiveJob`) implemented for time-consuming processes, improving app performance and user experience?
